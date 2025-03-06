@@ -1,0 +1,23 @@
+body {
+    background-color: rgba(88,69,151,255);
+    color: white;
+}
+
+
+#navbar-container {
+    /* background-color: white; */
+    height: 8rem;
+    width: 100%;
+    /* position: absolute; */
+}
+
+#PGDemo-logo {
+    height: 8rem;
+    width: auto;
+}
+
+.navbar-option {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
