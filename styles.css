@@ -1,17 +1,17 @@
 body {
     /* background-color: rgba(88,69,151,255); */
-    background-color: white;
+    background-color: rgba(88,69,151,255);
     color: white;
 }
 
 header {
-    background-color: rgba(88,69,151,255);
+    background-color: white;
 }
 
 
 #navbar-container {
-    display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: center; 
     /* background-color: white; */
     height: 8rem;
     width: 90%;
@@ -24,19 +24,26 @@ header {
 }
 
 .navbar-option {
-    color: white;
+    color: black;
     text-decoration: none;
-    display: table-cell;
-    vertical-align: middle;
+    flex-direction: column;
+    justify-content: flex-end;
     width: 8%;
-    background-color: black;
+    background-color: white;
     border-radius: 20px;
     text-align: center;
-    vertical-align: middle;
+    
     margin-top: 3em;
     margin-bottom: 3em;
     padding-top: 3px;
+    font-weight: 600;
+    list-style-type: none;
 }
+
+/* #navbar-option-container {
+    flex-direction: column;
+    justify-content: flex-end;
+} */
 
 
 
