@@ -1,21 +1,19 @@
 body {
     /* background-color: rgba(88,69,151,255); */
-    background-color: rgba(88,69,151,255);
-    color: white;
+    background-color: white;
+    color: black    ;
 }
 
 header {
-    background-color: white;
+    background-color: rgba(88,69,151,255);
 }
 
 
-#navbar-container {
-    flex-direction: column;
-    justify-content: center; 
-    /* background-color: white; */
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;  
     height: 8rem;
-    width: 90%;
-    /* position: absolute; */
 }
 
 #PGDemo-logo {
@@ -23,30 +21,31 @@ header {
     width: auto;
 }
 
-.navbar-option {
-    color: black;
+.navbar-option{
+    color: white;
     text-decoration: none;
-    flex-direction: column;
-    justify-content: flex-end;
-    width: 8%;
-    background-color: white;
-    border-radius: 20px;
-    text-align: center;
     
-    margin-top: 3em;
-    margin-bottom: 3em;
-    padding-top: 3px;
+    border-radius: 10px;
+    text-align: center; 
     font-weight: 600;
-    list-style-type: none;
 }
 
-/* #navbar-option-container {
-    flex-direction: column;
-    justify-content: flex-end;
-} */
-
-
-
+.navbar ul li {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+    
+.waterfront-img {
+    padding-top: 10px;
+    margin: auto;
+    width: 80%;
+    display: block;
+}
+        
+        
+        
+        
 
 
 
