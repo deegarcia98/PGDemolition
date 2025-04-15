@@ -58,6 +58,9 @@ header {
 }
 
 .site-footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
     background-color: rgba(88,69,151,255);
     color: white;
     height: 150px;
