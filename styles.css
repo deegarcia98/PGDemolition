@@ -29,11 +29,11 @@ header {
     width: 100%;
     display: flex;
     justify-content: space-around;  
-    height: 8rem;
+    height: 6rem;
 }
 
 #PGDemo-logo {
-    height: 8rem;
+    height: 6rem;
     width: auto;
 }
 
@@ -42,7 +42,7 @@ header {
     display: flex;
     justify-content: flex-end;
     gap: 90px;
-    padding-top: 2rem;
+    padding-top: 1.2rem;
     /* color: white; */
     /* text-decoration: none; */
     
@@ -158,6 +158,14 @@ header {
 .index-headline h2 {
     padding-top: 16rem;
     padding-right: 2rem;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    color: rgba(88,69,151,255);
+    font-size: 32px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 
