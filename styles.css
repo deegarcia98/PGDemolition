@@ -176,6 +176,24 @@ header {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
+hr {
+    border: 0; 
+    height: 4px; 
+    background-color: #2d2d2e;
+    width: 100%; 
+    margin: 20px auto; 
+    border-radius: 5px; 
+  }
+
+.service-section {
+    display: block;
+    align-self: center;
+    background-color: rgba(255, 218, 69, 0.9);
+    width: 80%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
 
         
 
