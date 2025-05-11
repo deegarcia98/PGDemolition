@@ -160,10 +160,18 @@ header {
     padding-right: 2rem;
 }
 
-.banner {
+.banner h1{
     display: flex;
     justify-content: center;
-    color: rgba(88,69,151,255);
+    /* color: rgba(88,69,151,255); */
+    font-size: 32px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.banner p {
+    display: flex;
+    justify-content: center;
+    /* color: rgba(88,69,151,255); */
     font-size: 32px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
