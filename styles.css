@@ -87,7 +87,7 @@ header {
 } */
 
 .site-footer {
-    display: flex;
+    display: grid;
     bottom: 0;
     width: 100%;
     background-color: rgba(88,69,151,255);
@@ -208,6 +208,13 @@ hr {
     display: flex;
     text-align: center;
     font-weight: 500;
+}
+
+.index-banner {
+    display: block;
+    justify-content: center;
+    text-align: center;
+    padding: 2em 0em;
 }
 
 
