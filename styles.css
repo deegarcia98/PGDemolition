@@ -217,6 +217,32 @@ hr {
     padding: 2em 0em;
 }
 
+.demo-center {
+    display: flex;
+    justify-content: left;
+    background-color: aquamarine;
+    height: 100px;
+    padding-right: 50%;
+    padding-left: 10%;
+}
+
+.pool-center {
+    display: flex;
+    justify-content: right;
+    background-color: #ffcc00;
+    height: 100px;
+    padding-right: 10%;
+    padding-left: 50%;
+}
+
+.roof-center {
+    display: flex;
+    justify-content: left;
+    height: 100px;
+    padding-right: 50%;
+    padding-left: 10%;
+}
+
 
         
 
