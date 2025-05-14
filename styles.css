@@ -221,26 +221,34 @@ hr {
     display: flex;
     justify-content: left;
     background-color: aquamarine;
-    height: 100px;
+    height: 120px;
     padding-right: 50%;
     padding-left: 10%;
+    font-weight: bold;
 }
 
 .pool-center {
     display: flex;
     justify-content: right;
     background-color: #ffcc00;
-    height: 100px;
+    height: 120px;
     padding-right: 10%;
     padding-left: 50%;
+    font-weight: bold;
 }
 
 .roof-center {
     display: flex;
     justify-content: left;
-    height: 100px;
+    height: 120px;
     padding-right: 50%;
     padding-left: 10%;
+    font-weight: bold;
+}
+
+.trusted-name {
+    display: flex;
+    justify-content: center;
 }
 
 
